@@ -492,34 +492,6 @@ input:checked + .slider:before {
 	text-transform: uppercase;
 }
 
-.twou {
-	width: 11.75%;
-}
-
-.onepointfiveu {
-	width: 8.8125%;
-}
-
-.onepointsevenfiveu {
-	width: 10.28125%;
-}
-
-.twopointtwofiveu {
-	width: 13.21875%;
-}
-
-.twopointsevenfiveu {
-	width: 16.15625%;
-}
-
-.onepointtwofiveu {
-	width: 7.34375%;
-}
-
-.sixpointtwofiveu {
-	width: 36.71875%;
-}
-
 .inactive {
 	opacity: .6;
 	border-color: var(--accent-color);
@@ -809,18 +781,3 @@ input:checked + .slider:before {
 		opacity: 0;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
