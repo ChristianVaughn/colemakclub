@@ -90,6 +90,8 @@ var initialCustomLevelsState = ''; // saves a temporary copy of custom levels th
 var preferenceButton 		= document.querySelector('.preferenceButton'),
 preferenceMenu 				= document.querySelector('.preferenceMenu'),
 closePreferenceButton 		= document.querySelector('.closePreferenceButton'),
+hideKeyboardToggle 			= document.querySelector('.hideKeyboardToggle'),
+cheatsheet 			        = document.querySelector('.cheatsheet'),
 capitalLettersAllowed 		= document.querySelector('.capitalLettersAllowed'),
 fullSentenceModeToggle		= document.querySelector('.fullSentenceMode'),
 fullSentenceModeLevelButton	= document.querySelector('.lvl8'),
@@ -227,6 +229,11 @@ preferenceButton.addEventListener('click', ()=> {
 // listener for preference menu close button
 closePreferenceButton.addEventListener('click', ()=> {
 	closeMenu();
+});
+
+// capital letters allowed
+hideKeyboardToggle.addEventListener('click', ()=> {
+	cheatsheet.classList.toggle('hidden');
 });
 
 // capital letters allowed

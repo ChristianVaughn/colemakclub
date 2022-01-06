@@ -113,18 +113,14 @@ select{
 	position: absolute;
 	right: -37vh;
 	z-index: 105;
-
 	background: var(--menu-background-color);
-	height: 100vh;
+	height: 60vh;
 	width: 33vh;
-
-	border-left: .1vh solid var(--text-color);
-
+	/* border-left: .1vh solid var(--text-color); */
 	-webkit-transition: right .08s linear;
-
 	-o-transition: right .08s linear;
-
 	transition: right .08s linear;
+	border-radius: 22px;
 }
 
 .preferenceMenu ul {
@@ -444,6 +440,9 @@ input:checked + .slider:before {
 
 /*___________cheatsheet___________*/
 
+.hidden {
+	display: none;
+}
 .cheatsheetContainer {
 	display: -webkit-box;
 	display: -ms-flexbox;
